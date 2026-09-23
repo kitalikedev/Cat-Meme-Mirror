@@ -7,7 +7,7 @@ WINDOW_NAME = "Meme Mirror: You vs Cat Meme"
 
 # --- Asset Paths ---
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-MEME_DIR = os.path.join(BASE_DIR, "memes")
+MEME_DIR = os.path.abspath(os.path.join(BASE_DIR, "..", "memes"))
 
 # Mapping expression states to exact filenames
 MEME_MAP = {
