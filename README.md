@@ -12,14 +12,44 @@ An interactive computer vision project using Google MediaPipe and OpenCV that tr
 - Heuristic-based classification (Mouth Aspect Ratio, Eye Aspect Ratio, Smile Ratio).
 - Debounced state transitions for jitter-free visual experience.
 
+## Prerequisites
+- Python **3.9 - 3.12** recommended.
+
 ## Installation & Setup
+
+### 1. Clone the repository
 ```bash
-# Clone the repository
-git clone [https://github.com/kitalikedev/Cat-Meme-Mirror.git](https://github.com/kitalikedev/Cat-Meme-Mirror.git)
+git clone https://github.com/kitalikedev/Cat-Meme-Mirror.git
 cd Cat-Meme-Mirror
+```
 
-# Install dependencies
+### 2. Create and activate a virtual environment
+- **macOS / Linux:**
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+- **Windows (Command Prompt):**
+```cmd
+python -m venv venv
+venv\Scripts\activate
+```
+
+- **Windows (PowerShell):**
+```powershell
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+```
+
+### 3. Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
-# Run the app
+### 4. Run the app
+```bash
 python src/main.py
+```
+
+> Press `q` to quit the application window.
